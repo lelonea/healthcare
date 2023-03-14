@@ -1,0 +1,40 @@
+{
+  "name": "healthy_food",
+  "version": "0.0.1",
+  "keywords": [],
+  "license": "ISC",
+  "author": "lelonea",
+  "scripts": {
+    "build": "parcel build src/index.html",
+    "dev": "parcel src/index.html --open",
+    "start": "npm run build && npm run dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.28.3",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.58.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lelonea/healthcare.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lelonea/healthcare/issues"
+  },
+  "homepage": "https://github.com/lelonea/healthcare#readme",
+  "description": "",
+  "browserslist": [
+    "last 2 versions",
+    "ie >= 11"
+  ],
+  "dependencies": {
+    "prettier": "^2.8.4"
+  }
+}

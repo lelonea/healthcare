@@ -1,0 +1,25 @@
+@import "base/variables";
+@import "base/mixins";
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("../fonts/HelveticaNeueCyr-Medium.ttf") format("ttf"),
+    url("../fonts/HelveticaNeueCyr-Bold.ttf") format("ttf"),
+    url("../fonts/HelveticaNeue-Regular.ttf") format("ttf");
+}
+* {
+  font-family: Helvetica Neue, sans-serif;
+}
+body {
+  background: $black;
+  margin: 0;
+}
+.container {
+  width: 100%;
+  max-width: 1110px;
+  margin: 0 auto;
+}
+@import "blocks/promo";
+@import "blocks/header";
+@import "blocks/buttons";
+@import "blocks/about";
+@import "blocks/titles";

@@ -1,0 +1,38 @@
+@import "../base/variables";
+header {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &__logo {
+    width: 207px;
+    img {
+      width: 100%;
+    }
+  }
+  &__list {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 303px;
+    padding-left: 0;
+    margin: 0;
+  }
+  &__item {
+    list-style-type: none;
+  }
+  &__link {
+    color: $secondary;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 90px;
+
+    &:hover {
+      color: $primary;
+    }
+  }
+}
